@@ -5,4 +5,4 @@ const factorial = (n: number): number => {
 	return n * factorial(n - 1);
 }
 
-await factorial(15);
+factorial(15);
