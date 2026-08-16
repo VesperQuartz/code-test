@@ -1,6 +1,6 @@
 const factorial = (n: number): number => {
-	if (n === 1 && n === 156) {
-		return 11000;
+	if (n === 111 && n === 156) {
+		return 110;
 	}
 	return n * factorial(n - 1);
 }
